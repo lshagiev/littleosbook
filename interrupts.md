@@ -284,7 +284,7 @@ be done as follows:
      *
      *  @param num The number of the interrupt
      */
-    void pic_acknowledge(unsigned integer interrupt)
+    void pic_acknowledge(unsigned int interrupt)
     {
         if (interrupt < PIC1_START_INTERRUPT || interrupt > PIC2_END_INTERRUPT) {
           return;
