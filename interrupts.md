@@ -190,7 +190,7 @@ code shows an example of how this can be done:
     .
     .
     .
-    error_code_handler              7       ; create handler for interrupt 7
+    error_code_handler              8       ; create handler for interrupt 8
     .
     .
     .
