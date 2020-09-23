@@ -1,4 +1,4 @@
-Fork of littleosbook repo with fixes for typos and mistakes.
+Fork of original littleosbook repo with fixes for typos and mistakes.
 
 # littleosbook
 
