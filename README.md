@@ -1,3 +1,5 @@
+Fork of littleosbook repo with fixes for typos and mistakes.
+
 # littleosbook
 
 This is the source code for the book "The little book about OS development".
