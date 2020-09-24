@@ -123,7 +123,8 @@ The pointer passed to `kmain` in the `ebx` register can be cast to a
     int kmain(/* additional arguments */ unsigned int ebx)
     {
         multiboot_info_t *mbinfo = (multiboot_info_t *) ebx;
-        unsigned int address_of_module = mbinfo->mods_addr;
+        multiboot_module_t *mod = (multiboot_module_t *) mbinfo->mods_addr;
+        unsigned int address_of_module = mod->mod_start;
     }
 ~~~
 
