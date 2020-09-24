@@ -112,7 +112,7 @@ can do this entirely from C.
 
 The pointer in `ebx` points to a _multiboot_ structure [@multiboot]. Download the
 `multiboot.h` file from
-<http://www.gnu.org/software/grub/manual/multiboot/html_node/multiboot.h.html>,
+<https://www.gnu.org/software/grub/manual/multiboot/html_node/multiboot_002eh.html>,
 which describes the structure.
 
 The pointer passed to `kmain` in the `ebx` register can be cast to a
