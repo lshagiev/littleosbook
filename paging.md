@@ -81,13 +81,13 @@ assembly code shows an example:
     ; eax has the address of the page directory
     mov cr3, eax
 
-    mov ebx, cr4        ; read current cr4
-    or  ebx, 0x00000010 ; set PSE
-    mov cr4, ebx        ; update cr4
+    mov eax, cr4        ; read current cr4
+    or  eax, 0x00000010 ; set PSE
+    mov cr4, eax        ; update cr4
 
-    mov ebx, cr0        ; read current cr0
-    or  ebx, 0x80000000 ; set PG
-    mov cr0, ebx        ; update cr0
+    mov eax, cr0        ; read current cr0
+    or  eax, 0x80000000 ; set PG
+    mov cr0, eax        ; update cr0
 
     ; now paging is enabled
 ~~~
